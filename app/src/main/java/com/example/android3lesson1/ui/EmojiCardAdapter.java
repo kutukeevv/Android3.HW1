@@ -62,7 +62,4 @@ public class EmojiCardAdapter extends RecyclerView.Adapter<EmojiCardAdapter.Emoj
             });
         }
     }
-    public interface onCardClick{
-        void cardClick(Card<String> card);
-    }
 }
